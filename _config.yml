@@ -1,6 +1,10 @@
 theme:
   colorScheme: "#4fd8eb"
   layout: dark # dark | light | auto
+    # 新增：首页顶部背景图片（可留空）
+  # 如果填入图片 URL（例如 "/images/bg.jpg" 或 "https://..."），index.ejs 会把它作为顶部卡片的背景图。
+  # 如果为空或未设置，会沿用原来的背景色：rgb(var(--mdui-color-primary-container))
+  background: ""
 
 favicon: "" # path( or url) of avatar such as /favicon.png
 
